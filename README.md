@@ -14,6 +14,10 @@ This repository and its changes are made public for anyone else with a licensed 
 
 See [changelog](CHANGELOG.md) for changes and fixes.
 
+## Optional extras
+
+The [`extras/`](extras/) directory holds optional add-ons that Fever does **not** load automatically. See each subfolder’s README (for example [`extras/feed-api`](extras/feed-api/)).
+
 ## License
 
 Fever is copyright © 2008-2023 Shaun Inman.
