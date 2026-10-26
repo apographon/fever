@@ -16,7 +16,12 @@ See [changelog](CHANGELOG.md) for changes and fixes.
 
 ## Optional extras
 
-The [`extras/`](extras/) directory holds optional add-ons that Fever does **not** load automatically. See each subfolder’s README (for example [`extras/feed-api`](extras/feed-api/)).
+The [`extras/`](extras/) directory holds optional add-ons that Fever does **not** load automatically:
+
+- [`extras/feed-api`](extras/feed-api/) — feed management HTTP API (`api_key`)
+- [`extras/feed-health`](extras/feed-health/) — single-page feed health check / edit UI (web login)
+
+See each subfolder’s README for install notes.
 
 ## License
 

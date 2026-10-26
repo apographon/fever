@@ -114,6 +114,10 @@ curl -sS -X POST 'https://your-fever.example/feed-api.php' \
 
 Suggested upstream layout for a PR: keep this under something like `extras/feed-api/` so it stays clearly optional and is never auto-loaded by Fever’s bootstrap.
 
+## See also
+
+[`extras/feed-health`](../feed-health/) — optional browser UI to live-check feeds and edit/delete them (Fever web login, not `api_key`).
+
 ## License
 
 Fever itself remains copyright © Shaun Inman. This add-on is meant for licensed Fever installs (including the mcaskill maintenance fork). Align contribution licensing with whatever the upstream maintainer prefers before opening a PR.
